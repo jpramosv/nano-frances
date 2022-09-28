@@ -62,11 +62,6 @@ a {
 }
 
 
-.quote-externo {
-  max-width: 500px;
-  margin: 0 auto;
-  color: white;
-}
 
 .quote-externo p:before,
 .quote-externo p:after {

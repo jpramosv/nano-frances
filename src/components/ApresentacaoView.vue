@@ -5,34 +5,35 @@
         <div class="nano">
           <h2 class="bj">Bonjour, eu sou <br /><b>Fabiana Nanô</b></h2>
           <p>
-            Professora de francês, amante da França, de arte, livros e vinhos
+            Professora de francês, amante da França, de arte, livros e vinhos e uma boa gastronomia
           </p>
-
-          <h2 class="apr">
-            "Sou brasileira, moro em São Paulo e ensino francês desde 2008.<br /><br />
-
+          <span class="quote"></span>
+          <p>
+            "Sou brasileira, moro em São Paulo e ensino francês desde 2008.
+          </p>
+          <p>
             Comecei a dar aulas assim que voltei da França. Lá, realizei um
             intercâmbio universitário em Lyon, uma cidade maravilhosa conhecida
             por sua gastronomia e belas paisagens.
-            <br /><br />
+          </p>
+          <p>
             Voltei para o Brasil, e desde então descobri a minha grande paixão:
             ensinar esta língua que eu amo tanto.
-            <br /><br />
+          </p>
+          <p>
             Ao longo desses anos, tive contato com centenas de alunos e pude
             perceber o que funciona de verdade para eles falarem francês de
             forma fluída e prazerosa.
-            <br /><br />
+          </p>
+          <p>
             Reuni neste curso as principais técnicas para você dar os primeiros
             passos nesta língua charmosa e conseguir se comunicar em francês de
             forma satisfatória.
-          </h2>
+          </p>
         </div>
 
-        <div>
-          <img
-            class="fotoNano"
-            src="https://fabiananano.com/wp-content/uploads/2022/03/fabiana-nano-1024x1024.webp"
-          />
+        <div class="fotoNano">
+          <img src="https://fabiananano.com/wp-content/uploads/2022/03/fabiana-nano-1024x1024.webp" />
         </div>
       </div>
     </div>
@@ -48,26 +49,35 @@ export default {
 <style>
 .apresentacao {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 auto;
   padding: 50px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  text-align: center;
 }
+
 .fotoNano {
-  max-width: 500px;
+  max-width: 495px;
 }
+
+.fotoNano img {
+  max-width: 100%;
+  margin-left: 30px;
+}
+
 .nano {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: "Poppins", Sans-serif;
   font-weight: 500;
   letter-spacing: 0.4px;
-  max-width: 440px;
-  padding: 50px;
+  max-width: 550px;
 }
+
+.nano p {
+  padding: 18px;
+}
+
 .bj {
   color: #141414;
   font-family: "Poppins", Sans-serif;
@@ -75,18 +85,21 @@ export default {
   font-weight: 500;
   letter-spacing: 0.4px;
 }
-.apr {
-  color: #212529cc;
-  font-family: "Poppins", Sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.6px;
+
+.quote:after {
+  content: "";
+  display: block;
+  width: 20rem;
+  height: 1px;
+  background: black;
+  margin: 10px auto;
 }
+
 
 p {
   color: #212529cc;
 }
+
 .container-apresentacao {
   background-color: #f2f2f2;
 }
