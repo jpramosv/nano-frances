@@ -2,9 +2,8 @@
   <section class="container-la-lune">
     <div class="circulo">
       <div class="texto-la-lune">
-        <h2>Você também ama a língua francesa?</h2>
-        <h2>
-          Já se imaginou viajando, morando ou estudando na França <br />e
+        <h2>Você também ama a língua francesa?
+          Já se imaginou viajando, morando ou estudando na França e
           conseguindo se comunicar sem dificuldade neste país lindo
         </h2>
       </div>
@@ -38,6 +37,7 @@ export default {
   opacity: 70%;
   margin: 0 auto;
 }
+
 .texto-la-lune {
   color: black;
   font-family: "Poppins", Sans-serif;
@@ -47,10 +47,18 @@ export default {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .texto-la-lune {
+    font-size: 1.3vw;
+  }
+}
+
 @media (max-width: 800px) {
   .texto-la-lune {
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
 }
 </style>
