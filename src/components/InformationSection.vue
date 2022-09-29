@@ -34,7 +34,7 @@ export default {
 .information-ctn {
     max-width: 960px;
     height: 250px;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
