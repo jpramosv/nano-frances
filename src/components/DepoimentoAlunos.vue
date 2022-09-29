@@ -87,6 +87,7 @@ export default {
 
     .depo {
         width: 90%;
+        margin: 0 auto;
     }
 }
 </style>
