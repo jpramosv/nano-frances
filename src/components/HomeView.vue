@@ -7,6 +7,7 @@
   <DepoimentoAlunos />
   <BonusCourse />
   <InformationSection />
+  <PaymentSection />
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import CardsModulos from "../components/CardsModulos.vue";
 import DepoimentoAlunos from "../components/DepoimentoAlunos.vue";
 import BonusCourse from "../components/BonusCourse.vue";
 import InformationSection from "../components/InformationSection.vue";
+import PaymentSection from "../components/PaymentSection.vue"
 
 export default {
   name: "HomeView",
@@ -29,7 +31,8 @@ export default {
     CardsModulos,
     DepoimentoAlunos,
     BonusCourse,
-    InformationSection
+    InformationSection,
+    PaymentSection
   },
 };
 </script>
