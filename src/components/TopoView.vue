@@ -93,7 +93,7 @@ a {
   .home h1 {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 700;
     letter-spacing: 1.1px;
 
@@ -118,7 +118,7 @@ a {
   .home h1 {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 1.1px;
 
@@ -126,7 +126,7 @@ a {
 
   .home p {
 
-    font-size: 0.em;
+    font-size: 1.1em;
 
   }
 }
