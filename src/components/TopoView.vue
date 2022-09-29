@@ -1,7 +1,7 @@
 <template>
   <section class="home">
     <div class="home-container">
-      <h1>Fale francês em três meses</h1>
+      <h1>Fale francês em <br />três meses</h1>
       <div>
         <blockquote class="quote-externo">
           <p>Com apenas 15 minutos por dia, mesmo que você não saiba nada ou ache uma língua difícil.</p>
@@ -37,13 +37,13 @@ a {
 .home {
   width: 100%;
   height: 480px;
-  background: url("@/assets/2.jpg") no-repeat center;
+  background: url("@/assets/psg1.jpg") no-repeat center;
   background-size: cover;
-  opacity: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .home-container {
@@ -52,10 +52,9 @@ a {
 }
 
 .home h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: white;
   font-weight: bold;
-  text-transform: uppercase;
   font-family: "Poppins", Sans-serif;
   font-weight: 700;
   letter-spacing: 1.1px;
@@ -77,7 +76,7 @@ a {
   color: #ffffff;
   font-family: "Poppins", Sans-serif;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 
 
 }
@@ -87,7 +86,7 @@ a {
     text-align: center;
     width: 100%;
     height: 300px;
-    background: url("@/assets/2.jpg") no-repeat center;
+    background: url("@/assets/psg1.jpg") no-repeat center;
     background-size: cover;
   }
 
@@ -112,7 +111,7 @@ a {
     text-align: center;
     width: 100%;
     height: 300px;
-    background: url("@/assets/3.jpg") no-repeat center;
+    background: url("@/assets/psg2.jpg") no-repeat center;
     background-size: cover;
   }
 
