@@ -61,4 +61,14 @@ ul {
 .bonus span {
     color: rgb(110, 193, 228);
 }
+
+@media (max-width: 768px) {
+    ul {
+        columns: 1;
+    }
+
+    .bonus-container {
+        margin: 0px 20px 20px 20px;
+    }
+}
 </style>
