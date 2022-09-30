@@ -9,6 +9,7 @@
   <InformationSection />
   <PaymentSection />
   <ExperimenteSection />
+  <PerguntaResposta />
 </template>
 
 <script>
@@ -20,8 +21,9 @@ import CardsModulos from "../components/CardsModulos.vue";
 import DepoimentoAlunos from "../components/DepoimentoAlunos.vue";
 import BonusCourse from "../components/BonusCourse.vue";
 import InformationSection from "../components/InformationSection.vue";
-import PaymentSection from "../components/PaymentSection.vue"
-import ExperimenteSection from "../components/ExperimenteSection.vue"
+import PaymentSection from "../components/PaymentSection.vue";
+import ExperimenteSection from "../components/ExperimenteSection.vue";
+import PerguntaResposta from "../components/PerguntaResposta.vue"
 
 export default {
   name: "HomeView",
@@ -35,7 +37,8 @@ export default {
     BonusCourse,
     InformationSection,
     PaymentSection,
-    ExperimenteSection
+    ExperimenteSection,
+    PerguntaResposta
   },
 };
 </script>
