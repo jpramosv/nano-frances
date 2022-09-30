@@ -10,6 +10,7 @@
   <PaymentSection />
   <ExperimenteSection />
   <PerguntaResposta />
+  <HeaderNano />
 </template>
 
 <script>
@@ -24,6 +25,7 @@ import InformationSection from "../components/InformationSection.vue";
 import PaymentSection from "../components/PaymentSection.vue";
 import ExperimenteSection from "../components/ExperimenteSection.vue";
 import PerguntaResposta from "../components/PerguntaResposta.vue"
+import HeaderNano from "../components/HeaderNano.vue"
 
 export default {
   name: "HomeView",
@@ -38,7 +40,8 @@ export default {
     InformationSection,
     PaymentSection,
     ExperimenteSection,
-    PerguntaResposta
+    PerguntaResposta,
+    HeaderNano
   },
 };
 </script>
