@@ -21,7 +21,7 @@ export default {
 .exp-ctn {
     background: #003869;
     max-width: 960px;
-    height: 200px;
+    height: 160px;
     margin: 0 auto;
     display: flex;
     align-items: center;
