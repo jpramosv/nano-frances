@@ -148,4 +148,18 @@ export default {
     padding-top: 5px;
 
 }
+
+@media(max-width:624px) {
+    .resposta {
+        flex-direction: column;
+    }
+
+    .linha {
+        border-right: 0px solid #16085b;
+    }
+
+    .about-btn {
+        font-size: 1.5em;
+    }
+}
 </style>
