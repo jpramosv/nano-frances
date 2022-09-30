@@ -161,5 +161,9 @@ export default {
     .about-btn {
         font-size: 1.5em;
     }
+
+    .perguntar-ctn>h1 {
+        text-align: center;
+    }
 }
 </style>

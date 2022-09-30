@@ -81,5 +81,11 @@ item-exp p {
     .item-exp {
         text-align: center;
     }
+
+    .item-exp p {
+        font-size: 0.8em;
+        margin-left: -20px;
+        padding: 0 10px 0 10px;
+    }
 }
 </style>
